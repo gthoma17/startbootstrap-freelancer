@@ -390,3 +390,31 @@ footer .footer-below {
   opacity: 0;
   display: none;
 }
+.star-bullet li {
+    display: block;
+}
+.star-bullet-hollow li {
+    display: block;
+}
+
+.star-bullet li:before
+{
+    /*Using a Bootstrap glyphicon as the bullet point*/
+    content: "\e006";
+    font-family: 'Glyphicons Halflings';
+    font-size: 15px;
+    float: left;
+    margin-top: 1px;
+    margin-left: -17px;
+    color: #1ABC9C;
+}.star-bullet-hollow li:before
+{
+    /*Using a Bootstrap glyphicon as the bullet point*/
+    content: "\e007";
+    font-family: 'Glyphicons Halflings';
+    font-size: 15px;
+    float: left;
+    margin-top: 1px;
+    margin-left: -17px;
+    color: #1ABC9C;
+}
